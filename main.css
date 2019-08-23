@@ -4,9 +4,74 @@
 /* font-family: 'Open Sans', sans-serif; */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
 
+.top-nav
+{
+    background-color: #ACD0B6;
+    align-items: center;
+    text-align: center;
+    padding: 16px;
+}
 
-h1 {
+body 
+{
+    background-image: url('assets/bg.png');
+    background-size: 100%;
+    margin: 0px;
+}
+
+.tittle 
+{
     font-family: 'Cookie', cursive;
     font-size: 71px;
-    color: purple;
+    font-weight: 100;
+    padding-top: 40px;
+    color: #EDF5D3;
+}
+
+.text-box 
+{
+    font-family: 'Open Sans', cursive;
+    font-size: 18px;
+
+    width: 100%;
+    padding: 16px;
+
+    border: 0px;
+    border-radius: 6px;
+
+    resize: none;
+    text-decoration: none;
+    color: #345157;
+
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.button 
+{
+    font-family: 'Open Sans', cursive;
+    font-weight: bold;
+    font-size: 22px;
+
+    background-color: #71A397;
+    width: 100%;
+    color: white;
+    padding: 12px;
+
+    cursor: pointer;
+
+    box-shadow: 0px 8px 0px 0px #4A8878;
+    -webkit-box-shadow: 0px 8px 0px 0px #4A8878;
+
+    border: 0px;
+    border-radius: 6px;
+}
+
+.main-container
+{
+    width: 420px;
+    margin: auto;
+    
+    text-align: center;
+    align-items: center;
 }
