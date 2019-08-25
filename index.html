@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,15 +11,16 @@
     <header class='top-nav'>
         <a href='#' ><img src='assets/logo.png' alt='logo'/></a>
     </header>
-    <main class='main-container'>
-        <h1 class='tittle'>Vem tomar um café com a gente</h1>
-        <!-- Recomendamos que você não altere os IDs dos elementos do formulário -->
-        <form id="contact" action="#">   
-            <input class='text-box' type="text" id="name" placeholder="Nome">      
-            <input class='text-box' type="text" id="email" placeholder="Endereço de email">    
-            <textarea class='text-box' name="message" id="message" cols="30" rows="5" placeholder="Mensagem"></textarea>       
-            <input class='button' type="submit" value="ENVIAR">
-        </form>
+    <main>
+        <section class='form-container'>
+            <h1 class='tittle'>Vem tomar um café com a gente</h1>
+            <form class='form-message' id="contact" action="#">   
+                <input class='text-box' type="text" id="name" placeholder="Nome">      
+                <input class='text-box' type="text" id="email" placeholder="Endereço de email"> 
+                <textarea class='text-box' name="message" id="message" cols="30" rows="5" placeholder="Mensagem"></textarea>       
+                <input class='button-send' type="submit" value="ENVIAR">
+            </form>
+        </section>
     </main>
     <script src="main.js"></script>
 </body>
